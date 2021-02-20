@@ -1,9 +1,7 @@
 from pydub import AudioSegment
-import scipy.io.wavfile as wavfile
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
-import scipy
 from scipy.io.wavfile import read
 
 #console args
