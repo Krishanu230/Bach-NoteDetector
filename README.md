@@ -5,5 +5,5 @@ Install the dependencies using:
 Run it on wav files:
 `python bach.py test/test2/melody-1.wav`
 
-The image file contains detected note onsets vs loudness graph
+The image file contains detected note onsets vs loudness graph.
 Inspired from: https://holometer.fnal.gov/GH_FFT.pdf
