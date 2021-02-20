@@ -61,7 +61,6 @@ def identifyNote(audioFrame, sampleRate):
     
     hanningWindow = 0.5 * (1 - np.cos(np.linspace(0, 2*np.pi, samplesPerFFT, False)))
     buf = np.zeros(samplesPerFFT, dtype=np.float32)
-    buf[:-frameSize] = buf[frameSize:]
     buf[-frameSize:] = audioFrame
     
     #FFT the the windowed buffer
